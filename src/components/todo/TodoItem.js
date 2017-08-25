@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 export const TodoItem = (props) => {
-
-	return (
-			console.log("@@@@@@",props),
+	console.log("Logging the props value",props);
+	return(
+			
 		<li>
           <input type="checkbox"
            defaultChecked = {props.isComplete}/>{props.name}
